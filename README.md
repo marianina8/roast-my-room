@@ -4,7 +4,7 @@ A Go program that looks through your webcam and roasts your room, fully offline.
 
 It takes a photo with [imagesnap](https://github.com/rharder/imagesnap), shows it to a small vision model running inside the Go program with [yzma](https://github.com/hybridgroup/yzma) (Go + [llama.cpp](https://github.com/ggml-org/llama.cpp), no CGo, no server), and reads the roast out loud with the Mac's built-in `say` command. No API key, no Wi-Fi needed once the model is downloaded.
 
-Built for the Build It in Go video "How Much RAM Do You Need for Local AI? I Tested 8GB". Huge thanks to [Ron Evans](https://github.com/deadprogram) for yzma: go star it.
+Built for the Build It in Go video "My Go Program Won't Stop Roasting My Room" (video link coming Nov 12). Huge thanks to [Ron Evans](https://github.com/deadprogram) for yzma: go star it.
 
 ## Run it (macOS, Apple Silicon)
 
